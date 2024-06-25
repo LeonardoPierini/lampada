@@ -30,7 +30,7 @@ function isLampBroken(){
 // função que liga a lampada
 function lampOn(){
     if(!isLampBroken()){
-          lamp.src = '../imgs/ligada.jpg'
+          lamp.src = './imgs/ligada.jpg'
         
     }
    
@@ -40,14 +40,14 @@ function lampOn(){
 // funçaão que desliga a lampada
 function lampOff(){
     if(!isLampBroken()){
-        lamp.src = '../imgs/desligada.jpg'
+        lamp.src = './imgs/desligada.jpg'
 }
     }
     
     
 // função que quebra a lampada
 function lampbroken(){
-    lamp.src = '../imgs/quebrada.jpg'
+    lamp.src = './imgs/quebrada.jpg'
 }
 
 
